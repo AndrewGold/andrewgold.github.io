@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Source Sans Pro;
+  background: black;
+  color: white;
+}
+
+.header {
+  color: #EF442D;
+  text-transform: uppercase;
+  font-family: Anton;
+  font-size: 64px;
+  -webkit-marquee-speed: fast;
+}
+
+.title {
+  color: white;
+  text-transform: uppercase;
+  font-family: Anton;
+  font-size: 40px;
+}
+
+.count {
+  opacity: .5;
+  float: right;
+}
+
+.view {
+  padding: 0px 20px;
+}
+
+.name {
+  float: left;
+}
+
+.description {
+  color: #FFFFFF;
+  margin: 4px 0px;
+  opacity: .5;
+}
+
+.event {
+  padding: 8px 0px;
+  border-top: 1px dashed #483a3a;
+}
+
+.bottom {
+  height: 100px; 
+  width:100%;
+  position: absolute;
+  left: 0;
+  bottom: 0; 
+}
+
+.main-button {
+  background: #EF442D;
+  color: white;
+  text-transform: uppercase;
+  font-family: Anton;
+  width: 100%;
+  padding: 20px;
+  border: none;
+  font-size: 20px;
+}
